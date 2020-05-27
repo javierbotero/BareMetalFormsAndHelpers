@@ -4,6 +4,6 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		
+		debugger
 	end
 end
