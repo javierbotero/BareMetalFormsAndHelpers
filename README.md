@@ -12,10 +12,12 @@ In order to start with the project:
 
 1. You need to have Rails environment installed. [Click here for instructions](https://guides.rubyonrails.org/getting_started.html)
 2. Clone [this repository :blue_book:](https://github.com/javierbotero/BareMetalFormsAndHelpers.git)
-3. Run the rails server
-    - rails server
-4. Create a Database in order to store your instance models, you can do that running the migrations
+3. cd into the new folder
+4. Run `bundle install`
+5. Create a Database in order to store your instance models, you can do that running the migrations
     - rake db:migrate
+6. Run the rails server
+    - rails server
 
 ## Authors
 
