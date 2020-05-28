@@ -1,6 +1,16 @@
 <div align="center">
 <h1>Create New Users</h1>
 
+<!--
+<form action="/users" accept-charset="UTF-8" method="POST" >
+    Username: <input type="text" name="user[username]"> <br>
+    Email: <input type="email" name="user[email]"> <br>
+    Password: <input type="password" name="user[password]"> <br>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="submit" value="Submit">
+</form>
+-->
+
 <!-- <%= form_tag("/users", method: "post") do %>
   <%= label_tag(:username, 'User name')%>
   <%= text_field_tag(:username)%>

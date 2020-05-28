@@ -14,6 +14,8 @@ In order to start with the project:
 2. Clone [this repository :blue_book:](https://github.com/javierbotero/BareMetalFormsAndHelpers.git)
 3. Run the rails server
     - rails server
+4. Create a Database in order to store your instance models, you can do that running the migrations
+    - rake db:migrate
 
 ## Authors
 
