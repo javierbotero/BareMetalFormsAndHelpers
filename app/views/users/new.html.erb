@@ -10,7 +10,13 @@
   <%= text_field_tag(:password)%>
   <%= submit_tag('send')%>
 <%end %> -->
-
+<% if @user.errors.any? %>
+  <ul>
+  <% @user.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+  </ul>
+<% end %>
 <%= form_for @user do |f| %>
   <%= f.label :title, 'Username: ' %> <br>
   <%= f.text_field :username, placeholder: " Your user name here" %> <br>
