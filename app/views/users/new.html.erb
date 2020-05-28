@@ -1,11 +1,24 @@
+<div align="center">
 <h1>Create New Users</h1>
 
-<%= form_tag ('/users', method: 'post') do%>
-  <%= label_tag (:username, 'User name')%>
-  <%= text_field_tag (:username)%>
-  <%= label_tag (:email, 'email')%>
-  <%= text_field_tag (:email)%>
-  <%= label_tag (:password, 'password')%>
-  <%= text_field_tag (:password)%>
-  <%= submit_tag ('send')%>
-<% end %>
+<!-- <%= form_tag("/users", method: "post") do %>
+  <%= label_tag(:username, 'User name')%>
+  <%= text_field_tag(:username)%>
+  <%= label_tag(:email, 'email')%>
+  <%= text_field_tag(:email)%>
+  <%= label_tag(:password, 'password')%>
+  <%= text_field_tag(:password)%>
+  <%= submit_tag('send')%>
+<%end %> -->
+
+<%= form_for @user do |f| %>
+  <%= f.label :title, 'Username: ' %> <br>
+  <%= f.text_field :username, placeholder: " Your user name here" %> <br>
+  <%= f.label :email, ' Email:' %> <br>
+  <%= f.text_field :email, placeholder: "example@example.com" %> <br>
+  <%= f.label :password, ' Password:' %> <br>
+  <%= f.password_field :password %> <br>
+  <%= f.submit "Submit"%>
+<%end%>
+
+</div>
