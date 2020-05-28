@@ -10,6 +10,7 @@ AllCops:
     - "README.md"
     - "node_modules/**/*"
 
+
   DisplayCopNames: true
 
 Layout/LineLength:
