@@ -31,7 +31,7 @@ In order to start with the project:
 👤 **Javier Botero**
 
 - Github: [@Javierbotero](https://github.com/javierbotero)
-- Twitter: [@@Javierbotero1](https://twitter.com/JavierBotero1)
+- Twitter: [@Javierbotero1](https://twitter.com/JavierBotero1)
 - Linkedin: [Javier Botero](https://www.linkedin.com/in/javierboterodev/)
 
 
